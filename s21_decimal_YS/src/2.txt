@@ -1,0 +1,22 @@
+==58816== Memcheck, a memory error detector
+==58816== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==58816== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==58816== Command: ./test
+==58816== 
+Running suite(s): !!!CONVERT TYPE!!!
+100%: Checks: 35, Failures: 0, Errors: 0
+Running suite(s): !!!!!COMPARE!!!!!
+100%: Checks: 7, Failures: 0, Errors: 0
+Running suite(s): !!!!!ANOTHER!!!!!!
+100%: Checks: 12, Failures: 0, Errors: 0
+Running suite(s): !!!!ARITHM!!!!!
+100%: Checks: 63, Failures: 0, Errors: 0
+==58816== 
+==58816== HEAP SUMMARY:
+==58816==     in use at exit: 0 bytes in 0 blocks
+==58816==   total heap usage: 5,584 allocs, 5,584 frees, 1,658,810 bytes allocated
+==58816== 
+==58816== All heap blocks were freed -- no leaks are possible
+==58816== 
+==58816== For lists of detected and suppressed errors, rerun with: -s
+==58816== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
